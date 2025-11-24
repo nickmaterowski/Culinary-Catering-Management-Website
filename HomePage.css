@@ -1,0 +1,72 @@
+html {
+    background-image: url("ChefHats.png");
+    background-position: center;
+}
+
+h1 {
+    color : brown;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 1.5%;
+}
+
+#template {
+    border: 4px solid brown;
+    background-color: rgba(255, 255, 255, 0.398);
+    box-sizing: border-box;
+    padding: 2%;
+    font-weight: bold;
+    margin: 10% auto;
+    min-width: 350px;
+    max-width: 800px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+input, select {
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+}
+
+label {
+    color : brown;
+    text-align: left;
+}
+
+.formField {
+    text-align: left;
+}
+
+#toggleBtn {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    margin-left: -30px;
+}
+
+
+.bttn {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border-radius: 7.5px;
+    border: 1px solid gray;
+    padding: 9px;
+    text-align: center;
+    margin: 0px;
+    min-width: 80px;
+    margin-top: 20px;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+/*
+
+Used to learn how to link a background image:
+https://www.w3schools.com/cssref/pr_background-image.php
+
+Used to learn how to confirm if checkbox was checked
+https://www.w3schools.com/jsref/dom_obj_checkbox.asp
+
+*/
